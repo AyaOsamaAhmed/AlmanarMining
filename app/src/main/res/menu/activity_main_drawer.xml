@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@mipmap/home" android:id="@+id/home" android:title="Home" />
+        <item android:icon="@drawable/logo" android:id="@+id/about" android:title="About" />
+        <item android:icon="@mipmap/service" android:id="@+id/service" android:title="Our Service" />
+        <item android:icon="@mipmap/client" android:id="@+id/client" android:title="Clients" />
+        <item android:icon="@mipmap/contact" android:id="@+id/contact" android:title="Contact" />
+        <item android:icon="@mipmap/exit" android:id="@+id/exit" android:title="Exit" />
+        <item android:title="Developer">
+            <menu>
+                <item android:icon="@mipmap/share" android:id="@+id/share" android:title="Share" />
+                <item android:icon="@mipmap/logo" android:id="@+id/develop" android:title="About developer" />
+            </menu> />
+        </item>
+    </group>
+</menu>
